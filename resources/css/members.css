@@ -1,0 +1,66 @@
+#members{
+    width:100vw;
+    height: auto;
+    /* background-color: red; */
+    /* display: flex; */
+    /* justify-content: center; */
+    padding:2rem;
+}
+.members-header{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 800;
+    /* background-color: rgb(230, 230, 230); */
+    height: auto;
+    display: flex;
+    padding:0 2rem 0 2rem;
+    justify-content: center;
+    align-items: center;
+    /* width:30rem; */
+    /* border-top-left-radius: 5rem; */
+}
+.member-image{
+    height: 9rem;
+    border-radius: 50%;
+}
+.members-list1{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.members-container{
+    /* background-color: rgb(101, 101, 255); */
+    /* background-color: var(--lightbluecolor); */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap:3rem;
+    width:100%;
+    padding: 5rem 0 2rem 2rem;
+    border-bottom-right-radius:5rem;
+    flex-wrap: wrap;
+}
+.members-card{
+    display: flex;
+    align-items: center;
+
+    gap:3rem;
+}
+
+@media (max-width: 670px) {
+    .member-image {
+        height: 6rem;
+    }
+    .members-card{
+        font-size: 0.9rem;
+    }
+    .members-header{
+        font-size: 1.8rem;
+        margin-top:2rem;
+    }
+    .members-card{
+        flex-direction: column;
+        height: auto;
+    }
+}

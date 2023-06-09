@@ -1,0 +1,146 @@
+#why-us{
+    height: auto;
+    width:100vw;
+    /* background-color: rgb(248, 248, 248); */
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-us-contents{
+    max-width: 70rem;
+    height: auto;
+    background-color: rgb(227, 227, 255);   
+    padding:2rem;
+    /* border-radius: 3.5rem; */
+}
+.why-us-header{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.why-us-description{
+    margin-top:1.6rem;
+    letter-spacing: 0.97px;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.readmore-btn{
+    color:white;
+    background-color: var(--redcolor);
+    border:none;
+    outline:none;
+    height: 2.8rem;
+    width:8rem;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+.readmore-btn:hover{
+    background-color: rgb(255, 46, 46);
+    transform: scale(1.03);
+}
+.readmore-btn{
+    margin-top:1rem;
+}
+@media (max-width: 900px) {
+    .why-us-description{
+        /* margin-top:1rem; */
+        letter-spacing: 0.3px;
+        line-height: 1.2rem;
+    }
+    .why-us-contents{
+        max-width: 70rem;
+        padding:2rem 0.5 0.5 1rem;
+    }
+    #why-us{
+        padding:2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .why-us-header{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+}
+@media (max-width: 500px) {
+    #why-us{
+        padding:1.4rem;
+    }
+    .why-us-contents{
+        padding-left:1rem;
+        padding-right:0.4rem;
+    }
+    .why-us-description{
+        /* margin-top:1rem; */
+        letter-spacing: 0px;
+        line-height: 1.2rem;
+    }
+}
+
+.read-more-text{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+/* CSS of the Message from the CEO page */
+#message{
+    height: auto;
+    max-width:70rem;
+    padding:3rem;
+    background-color: rgb(255, 240, 240);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap:3rem;
+    padding-bottom:2rem;
+}
+.message-image{
+    height: 100%;
+    transition: all 0.2s ease;
+}
+.ceo-image-container{
+    /* background-color: red; */
+    width:fit-content;
+    height: 33rem;
+    overflow: hidden;
+    cursor: pointer;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-contents-description{
+    margin-top:1rem;
+}
+.message-image:hover{
+    transform: scale(1.1);
+}
+.message-contents-header{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.message-contents{
+    width:30rem;
+    padding-top:4rem;
+}
+.readmore-btn{
+    margin-top:1rem;
+}
+
+@media (max-width: 900px) {
+    .ceo-image-container{
+        height: 25rem;
+    }
+    #message{
+        gap:0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .message-contents{
+        width:auto;
+    }
+}
