@@ -77,12 +77,14 @@
         position: fixed;
         height: 100vh;
         width:100vw;
-        flex-direction: column;
         left:0;
-        justify-content: center;
+        text-align: center;
         top:0;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
         gap:2rem;
-        padding:2rem 0 2rem 0;
+        padding:10rem 0 2rem 0;
         display: none;
         animation: slideIn 0.3s ease;
         transform: translateX(0);
@@ -95,13 +97,15 @@
     .navbar-links{
         flex-direction: column;
         justify-content: center;
-        
+    }
+    .navbar-contact-btn{
+        margin-top: 2rem;
     }
     .navbar{
         justify-content: space-between;
     }
     .active{
-        display: flex;
+        display: block;
     }
     @keyframes slideIn {
         0%{
