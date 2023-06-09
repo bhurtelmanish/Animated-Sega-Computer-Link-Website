@@ -76,7 +76,7 @@ span.auto-type{
 }
 
 /* Animation Classes */
-/* .hidden1 , .hidden2{
+.hidden1 , .hidden2{
     opacity: 0;
 }
 .hidden1{
@@ -86,10 +86,10 @@ span.auto-type{
     transform: translateX(100%);
 }
 .show{
-    transition: 0.6s ease-in-out;
+    transition: 0.5s ease-in-out;
     opacity: 1;
     transform: translateX(0);
-} */
+}
 
 /* Responsive Queries */
 @media (max-width: 600px) {
