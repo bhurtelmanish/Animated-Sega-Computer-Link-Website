@@ -80,7 +80,7 @@ span.auto-type{
     opacity: 0;
 }
 .hidden1{
-    transform: translateY(30px);
+    transform: translateY(-30px);
 }
 .hidden2{
     transform: translateY(30px);
