@@ -11,12 +11,12 @@ readMorebtn.addEventListener("click" , ()=>{
     }
     readMoretext.classList.toggle("active");
 });
-readMorebtn2.addEventListener("click" , ()=>{
-    if(readMorebtn2.innerHTML == "Read More"){
-        readMorebtn2.innerHTML = "Read Less";
-    }
-    else{
-        readMorebtn2.innerHTML = "Read More";
-    }
-    readMoretext2.classList.toggle("active");
-});
+// readMorebtn2.addEventListener("click" , ()=>{
+//     if(readMorebtn2.innerHTML == "Read More"){
+//         readMorebtn2.innerHTML = "Read Less";
+//     }
+//     else{
+//         readMorebtn2.innerHTML = "Read More";
+//     }
+//     readMoretext2.classList.toggle("active");
+// });

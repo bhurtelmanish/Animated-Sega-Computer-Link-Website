@@ -4,3 +4,7 @@
 .fa-bars-staggered , .fa-xmark{
     color:black;
 }
+
+#contents-about{
+    height: 100vh;
+}
