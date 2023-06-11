@@ -66,7 +66,7 @@ body{
     flex-wrap: wrap-reverse;
 }
 .acp1-contents{
-    padding-top: 3rem;
+    padding-top: 8rem;
 }
 .acp-img{
     height: 25rem;
@@ -78,15 +78,23 @@ body{
     transform: scale(1.01);
 }
 .acp1-contents{
-    width:38rem;
+    width:36rem;
 }
 .achievements-description{
     font-size: 0.9rem;
     margin-top:0.5rem;
 }
+.acp2{
+    /* background-color: red; */
+    margin-top: 2rem;
+    text-align: center;
+}
 @media (max-width: 1340px) {
     .acp1{
         gap:0;
+    }
+    .acp1-contents{
+        padding-top: 2rem;
     }
 }
 @media (max-width: 650px) {
@@ -101,6 +109,12 @@ body{
         padding: 0 1rem 2rem 1rem;
     }
     .acp1-contents{
-        padding-top: 0rem;
+        padding-top: 1rem;
+    }
+    .achievements-header{
+        font-size: 2rem;
+    }
+    .achievements-description{
+        font-size: 0.9rem;
     }
 }
