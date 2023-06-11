@@ -1,6 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Finlandica&family=Geologica:wght@100;200;300;400;500&family=Grenze+Gotisch&family=Hubballi&family=Inter:wght@500&family=Lato&family=Lobster&family=Lobster+Two:wght@700&family=Manrope:wght@300&family=Martel&family=Noto+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Oswald:wght@200;300;400&family=Poppins:wght@200;300;500&family=Quicksand&family=Raleway:ital,wght@0,200;0,300;0,400;0,800;1,700&family=Roboto:wght@100;300;400;700&family=Sansita+Swashed:wght@300&family=Wix+Madefor+Display:wght@500&display=swap');
 .navbar-links li a{
     color:rgb(0, 0, 0);
 }
 .fa-bars-staggered , .fa-xmark{
     color:black;
+}
+#navbar{
+    position: static;
+    box-shadow: 0px 0px 10px rgb(220, 220, 220);
+}
+#courses{
+    min-height: 100vh;
+}
+.modules-container{
+    height: auto;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:2rem;
+    max-width: 1700px;
+    margin: auto;
+}
+.md{
+    background-color: rgb(236, 236, 255);
+    padding:2rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.md:hover{
+    transform: scale(1.06);
+}
+.md{
+    height: auto;
+}
+.md{
+    display: flex;
+    flex-direction: row-reverse;
+    width:fit-content;
+    gap:2rem;
+}
+.courses-teaching-img{
+    margin: auto;
+    display: block;
+    margin-top:2rem;
+    margin-bottom:1.5rem;
+    height: auto;
+    width:auto;
+}
+.module-image{
+    height: 8rem;
+}
+.header-courses{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+.courses-upper-contents{
+    height: auto;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* gap:3rem; */
+    flex-direction: column-reverse;
+    align-items: center;
+}
+@media (max-width:1210px) {
+    .md{
+        width:40rem;
+        justify-content: center;
+        gap:5rem;
+    }
+}
+@media (max-width: 660px) {
+    .md{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        width: auto;
+    }
+    .module-image{
+        height: auto;
+        width:100%;
+    }
+    .courses-teaching-img{
+        width:100%;
+        height: auto;
+    }
+    .modules-container{
+        padding: 1rem;
+    }
+    .md{
+        padding: 1.6rem 1rem 1rem 1rem;
+    }
 }

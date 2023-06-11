@@ -4,3 +4,13 @@
 .fa-bars-staggered , .fa-xmark{
     color:black;
 }
+#navbar{
+    position: static;
+    box-shadow: 0px 0px 10px rgb(220, 220, 220);
+}
+#achievements{
+    min-height: 100vh;
+}
+#hr{
+    margin-left: 2rem;
+}

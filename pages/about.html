@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <!-- Font Awesome cdn js linking -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>   <!-- anime.js library cdn linking -->
     <link rel="shortcut icon" href="../images/logo-circle.png" type="image/x-icon">  <!-- Favicon Image linking -->
-    <link rel="stylesheet" href="../global/global.css">  <!-- Global CSS linking -->
+     <!-- Global CSS linking -->
     <link rel="stylesheet" href="../resources/css/home.css">
     <link rel="stylesheet" href="../resources/css/navbar.css">
     <link rel="stylesheet" href="../resources/css/about.css">
@@ -21,7 +21,7 @@
     <script src="../resources/js/navbar.js" defer></script>
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <img src="../images/logo.png" alt="Navbar-Logo" class="navbar-logo">
         <div class="navbar-links-container">
             <ul class="navbar-links">
@@ -34,9 +34,20 @@
         </div>
         <i class="fa-solid fa-bars-staggered"></i>
     </div>
-<div id="contents-about">
-    
-</div>
+    <div id="about">
+        <div class="about-section">
+            <!-- <img src="../images/ceo.png" alt="About Image" class="about-image"> -->
+            <div class="about-section-contents">
+               <p class="about-header">Welcome to SEGA Computer Link.<br> We are grateful you're here.</p><hr width="90%" id="hr">
+               <div class="about-description">Honoured by CAN federation as the best institute in 2076 B.S. Sega Computer Link affiliated by the Govt. of Nepal in 2063 B.S. is an 
+                integrated institute associated with computer association. This institute has been providing quality computer education for the last 14 
+                years. This is the only institute to win the CAN Kaski Running Shield in Kaski district. It is run by the IT experts. We have been fulfilling 
+                the parental responsibilities to those admitted students at Sega. We would like to inform you that the credit of success goes to you, who 
+                have full faith on our commitment.</div>
+            </div>
+            <img src="../images/ceo.png" alt="About Image" class="about-image">
+        </div>
+    </div>
     <div id="footer">
         <div class="section1">
            <img src="../images/logo-circle.png" alt="Navbar-Logo" class="navbar-logo">
@@ -50,15 +61,14 @@
         </div>
         <div class="section2">
             <li>Support</li>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="./pages/about.html">ABOUT</a></li>
-            
-            <li><a href="./pages/courses.html">COURSES</a></li>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT</a></li>
+            <li><a href="../pages/courses.html">COURSES</a></li>
         </div>
         <div class="section3">
             <li>Us</li>
-            <li><a href="./pages/achievements.html">ACHIEVEMENTS</a></li>
-            <a href="./pages/contact.html"><button class="contact-btn">CONTACT</button></a> 
+            <li><a href="../pages/achievements.html">ACHIEVEMENTS</a></li>
+            <a href="../pages/contact.html"><button class="contact-btn">CONTACT</button></a> 
         </div>
     </div>
 </body>
