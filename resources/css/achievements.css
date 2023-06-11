@@ -50,15 +50,53 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .achievements-header{
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-family: 'Oswald', sans-serif;
 }
-#hr{
-    margin-left: 2rem;
+
+.acp-container{
+    padding:3rem 2rem 2rem 2rem;
 }
 .acp1{
-    background-color: red;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap:4rem;
+    flex-wrap: wrap-reverse;
+}
+.acp1-contents{
+    padding-top: 3rem;
 }
 .acp-img{
-    height: 20rem;
+    height: 25rem;
+    /* margin-top:0.7rem; */
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+.acp-img:hover{
+    transform: scale(1.01);
+}
+.acp1-contents{
+    width:38rem;
+}
+.achievements-description{
+    font-size: 0.9rem;
+    margin-top:0.5rem;
+}
+
+@media (max-width: 650px) {
+    .acp-img{
+        width:100%;
+        height: auto;
+    }
+    .acp-container{
+        padding:0;
+    }
+    .acp1-contents{
+        padding: 0 1rem 2rem 1rem;
+    }
+    .acp1-contents{
+        padding-top: 0rem;
+    }
 }
