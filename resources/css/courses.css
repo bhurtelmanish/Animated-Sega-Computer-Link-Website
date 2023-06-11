@@ -26,13 +26,14 @@
     margin: auto;
 }
 .md{
-    background-color: rgb(236, 236, 255);
+    background-color: rgb(242, 242, 255);
     padding:2rem;
-    transition: 0.2s ease-in-out;
+    /* transition: 0.2s ease-in-out; */
     cursor: pointer;
 }
 .md:hover{
     transform: scale(1.06);
+    transition: 0.2s ease;
 }
 .md{
     height: auto;
