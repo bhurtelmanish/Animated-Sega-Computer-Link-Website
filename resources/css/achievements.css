@@ -84,7 +84,11 @@ body{
     font-size: 0.9rem;
     margin-top:0.5rem;
 }
-
+@media (max-width: 1340px) {
+    .acp1{
+        gap:0;
+    }
+}
 @media (max-width: 650px) {
     .acp-img{
         width:100%;
