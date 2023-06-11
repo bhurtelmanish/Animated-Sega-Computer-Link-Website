@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <!-- Font Awesome cdn js linking -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>   <!-- anime.js library cdn linking -->
     <link rel="shortcut icon" href="../images/logo-circle.png" type="image/x-icon"> <!-- Favicon Image linking -->
-    <link rel="stylesheet" href="../global/global.css">  <!-- Global CSS linking -->
+    <!-- Global CSS linking -->
     <link rel="stylesheet" href="../resources/css/home.css">
     <link rel="stylesheet" href="../resources/css/navbar.css">
     <link rel="stylesheet" href="../resources/css/contact.css">
@@ -33,6 +33,44 @@
            <a href="contact.html"><button class="navbar-contact-btn">CONTACT</button></a> 
         </div>
         <i class="fa-solid fa-bars-staggered"></i>
+    </div>
+    <div id="contact">
+        <div class="contact-container">
+            <iframe class="map hidden1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.0457039507155!2d83.99807217536497!3d28.205923975900394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399595c8d5fc1151%3A0xd8bc8278c5c32337!2sSEGA%20Computer%20Link!5e0!3m2!1sen!2snp!4v1686475837444!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form class="form hidden2">
+                <p class="contact-header">Contact Us</p>
+                <label for="name" class="label">Username</label>
+                <input type="text" name="name" id="name">
+                <label for="email" class="label">E-Mail</label>
+                <input type="email" name="email" id="email">
+                <label for="message" class="label">Message</label>
+                <textarea name="message" rows="10"></textarea>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="section1">
+           <img src="../images/logo-circle.png" alt="Navbar-Logo" class="navbar-logo">
+           <div class="footer-header">
+               SEGA <p>Computer Link</p>
+           </div>
+           <div class="icons-container">
+               <a href="https://www.facebook.com/segaedu15" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <a href="https://www.youtube.com/@codegenesis2130" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+           </div>
+        </div>
+        <div class="section2">
+            <li>Support</li>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT</a></li>
+            <li><a href="../pages/courses.html">COURSES</a></li>
+        </div>
+        <div class="section3">
+            <li>Us</li>
+            <li><a href="../pages/achievements.html">ACHIEVEMENTS</a></li>
+            <a href="../pages/contact.html"><button class="contact-btn">CONTACT</button></a> 
+        </div>
     </div>
 </body>
 </html>
