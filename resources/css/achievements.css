@@ -64,10 +64,10 @@ body{
     flex-wrap: wrap-reverse;
 }
 .acp1-contents{
-    padding-top: 8rem;
+    /* padding-top: 3rem; */
 }
 .acp-container{
-    padding:0;
+    padding:5rem;
 }
 .acp-img{
     height: 25rem;
@@ -98,6 +98,9 @@ body{
     .acp1-contents{
         padding-top: 3rem;
     } */
+    .acp1-contents{
+        padding:0;
+    }
 }
 @media (max-width:1255px) { 
     .acp-container{
